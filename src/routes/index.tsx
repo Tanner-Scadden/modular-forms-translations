@@ -170,7 +170,6 @@ export default function Home() {
                         const translationKey =
                           `translations.${language}.name` as const;
 
-                        console.log({ translationKey });
                         if (selected()) {
                           setValues(form, {
                             languages: languages.filter((l) => l !== language),
